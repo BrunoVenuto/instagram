@@ -21,7 +21,7 @@ header {
 .login {
 	flex-wrap: wrap;
 	width:350px;
-	height:500px;
+	height:400px;
 	background-color: #FFFFFF;
 	margin: 70px;
 	border:1px solid #ccc;
@@ -64,26 +64,50 @@ h1 {
 	text-decoration: none;
 	color: #277bc7;
 }
-.sem_conta {
-	font-size: 15px;
-	padding-left: 40px;
+
+.desafio {
+	width: 350px;
+	height: 60px;
+	background-color: #FFFFFF;
+	margin-top: 55px;
+	border:1px solid #CCCCCC;
 }
-.sem_conta a {
-	text-decoration: none;
+.cadastre {
+	font-size: 13px;
+	margin-top:20px;
+	margin-left: 60px;
+}
+.cadastre a {
 	font-weight: bold;
 	color: #0095f6;
+	text-decoration: none;
 }
+.obtenha {
+	font-size: 15px;
+	margin-top:20px;
+	margin-left: 97px;
+}
+.app {
+	margin-left: 43px;
+	margin-top: 12px;
+}
+
+
+
+
+
 
 footer {
 	display: flex;
 	justify-content: center;
 	height: auto;
 }
-.links a {
+.footer a {
 	padding: 133px;
 	text-decoration: none;
 	font-weight: bold;
-	color: #8e8e94;
+	color: #00376b;
 	font-size: 15px;
+	margin-top: 20px;
 }
 
