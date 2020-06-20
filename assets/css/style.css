@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fafafa;
+}
+header {
+	display: flex;
+	justify-content: center;
+}
+.container {
+	width:990px;
+	height:auto;
+	display: flex;
+	justify-content: space-between;
+}
+.banner {
+	display: flex;
+	margin:40px;
+	padding-left: 45px;
+}
+.login {
+	flex-wrap: wrap;
+	width:350px;
+	height:500px;
+	background-color: #FFFFFF;
+	margin: 70px;
+	border:1px solid #ccc;
+}
+h1 {
+	display: flex;
+	justify-content: center;
+	font-family: 'Cookie';
+	font-size: 65px;
+	color: #262626;
+}
+#campo {
+	margin-left: 50px;
+}
+#campo2 {
+	margin-left: 50px;
+	padding-top: 5px;
+}
+#campo3 {
+	margin-left: 136px;
+	padding-top: 5px;
+	cursor: pointer;
+}
+.border {
+	border:1px solid #dbdbdb;
+	width:280px;
+	height: -1px;
+	margin:25px;
+	background-color: #dcdcdc;
+}
+.linkface {
+	margin-left: 65px;
+}
+.esqueceu {
+	margin-left: 114px;
+	font-size:12px;
+	margin-top: 15px;
+}
+.esqueceu a {
+	text-decoration: none;
+	color: #277bc7;
+}
+.sem_conta {
+	font-size: 15px;
+	padding-left: 40px;
+}
+.sem_conta a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #0095f6;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	height: auto;
+}
+.links a {
+	padding: 133px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #8e8e94;
+	font-size: 15px;
+}
+
