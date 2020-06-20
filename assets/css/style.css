@@ -127,3 +127,34 @@ li {
 	margin-left: 60px;
 	margin-bottom: 20px;
 }
+
+
+
+@media (max-width: 870px) {
+
+	.container {
+		flex-direction: column;
+	}
+	.conatiner2 {
+		flex-direction: column;
+		width:100%;
+	}
+	.login {
+		height:auto;
+	}
+	.span {
+		flex-direction: column;
+	}
+
+	footer {
+		height: auto;
+
+	}
+	ul {
+		flex-direction: column;
+	}
+
+	li {
+		margin: 12px;
+	}
+}
